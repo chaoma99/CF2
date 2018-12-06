@@ -10,15 +10,24 @@ This is the research code for the paper:
 - [Project page](https://sites.google.com/site/jbhuang0604/publications/cf2)
 - [Result visualization](https://sites.google.com/site/jbhuang0604/publications/cf2/visualization)
 
+Compared to the original implemetation, we have improved the code to achieve better results:
+1. We added the scale estimation module
+2. We adjust the layer weights according to [our extension work published on TPAMI](https://github.com/chaoma99/HCFTstar)
 
-The correlation filters with convolutional features (CF2) is a state-of-the-art tracker that exploits rich feature hierarchy from deep convolutional neural networks for visual tracking. For more details, please visit our [Project page](https://sites.google.com/site/jbhuang0604/publications/cf2).
-
-<img src="https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/CF2_ICCV_2015/teaser.jpg" width="640" />
+To exactly reproduce the results reported in our ICCV 2015 paper, please check the early committed version [(4b895b5)](https://github.com/jbhuang0604/CF2/tree/4b895b516b2d73fc83174439729d2157902c9d63) 
 
 
 ### Citation
 
 If you find the code and dataset useful in your research, please consider citing:
+
+    @article{Ma-HCFTstar-2017,
+        title={Robust Visual Tracking via Hierarchical Convolutional Features},
+        Author = {Ma, Chao and Huang, Jia-Bin and Yang, Xiaokang and Yang, Ming-Hsuan},
+        journal = {IEEE Transcations on Pattern Analysis and Machine Intelligence},
+        pages={},
+        Year = {2018}
+    }
 
     @inproceedings{Ma-ICCV-2015,
         title={Hierarchical Convolutional Features for Visual Tracking},
